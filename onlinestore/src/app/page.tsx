@@ -139,7 +139,7 @@ export default function Home() {
       </section>
       <div className="my-20 mx-10">
         <div className="flex flex-row justify-between my-5">
-          <h2 className="text-3xl">Men's Collection</h2>
+          <h2 className="text-3xl">Men&apos;s Collection</h2>
           <a href="#" className="flex flex-row text-lg hover:text-purple-700">
             View All
             <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -300,7 +300,7 @@ export default function Home() {
 
       <div className="my-20 mx-10">
         <div className="flex flex-row justify-between my-5">
-          <h2 className="text-3xl">Women's Collection</h2>
+          <h2 className="text-3xl">Women&apos;s Collection</h2>
           <a href="#" className="flex flex-row text-lg hover:text-purple-700">
             View All
             <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -314,7 +314,7 @@ export default function Home() {
               <img src="https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg" className="w-full h-80 object-contain rounded-tl-lg rounded-tr-lg" />
             </a>
             <div className="p-5">
-              <h3><a href="#">BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</a></h3>
+              <h3><a href="#">BIYLACLESEN Women&apos;s 3-in-1 Snowboard Jacket Winter Coats</a></h3>
               <div className="flex flex-row my-3">
                 <div className="bg-black rounded-full h-5 w-5 shadow-md mr-2"></div>
                 <div className="bg-blue-800 rounded-full h-5 w-5 shadow-md mr-2"></div>
@@ -351,7 +351,7 @@ export default function Home() {
               <img src="https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg" className="w-full h-80 object-contain rounded-tl-lg rounded-tr-lg" />
             </a>
             <div className="p-5">
-              <h3><a href="#">Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</a></h3>
+              <h3><a href="#">Lock and Love Women&apos;s Removable Hooded Faux Leather Moto Biker Jacket</a></h3>
               <div className="flex flex-row my-3">
                 <div className="bg-black rounded-full h-5 w-5 shadow-md mr-2"></div>
                 <div className="bg-blue-800 rounded-full h-5 w-5 shadow-md mr-2"></div>
@@ -425,7 +425,7 @@ export default function Home() {
               <img src="https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg" className="w-full h-80 object-contain rounded-tl-lg rounded-tr-lg" />
             </a>
             <div className="p-5">
-              <h3><a href="#">MBJ Women's Solid Short Sleeve Boat Neck V</a></h3>
+              <h3><a href="#">MBJ Women&apos;s Solid Short Sleeve Boat Neck V</a></h3>
               <div className="flex flex-row my-3">
                 <div className="bg-black rounded-full h-5 w-5 shadow-md mr-2"></div>
                 <div className="bg-blue-800 rounded-full h-5 w-5 shadow-md mr-2"></div>

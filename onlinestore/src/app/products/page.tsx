@@ -2,6 +2,9 @@
 import Header from "@/components/header";
 import Footer from "../../components/footer";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+
+interface Product { id: number, title: string, price: number, description: string, category: string, image: string, rating: { rate: number, count: number } }
 
 async function getData() {
     const res = await fetch("https://fakestoreapi.com/products");
@@ -13,13 +16,22 @@ async function getData() {
     return res.json();
 }
 
-export default async function Products() {
+export default function Products() {
     const router = useRouter();
-    const data = await getData();
+    const [data, setData] = useState<Product[] | null>(null);
 
     const productDetail = (id: number) => {
         router.push("/products/" + id);
     }
+
+    useEffect(() => {
+        async function fetchData() {
+            const result = await getData();
+            setData(result);
+        }
+
+        fetchData();
+    }, [])
 
     return (
         <>

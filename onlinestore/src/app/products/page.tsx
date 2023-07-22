@@ -32,9 +32,9 @@ export default async function Products() {
                     {data &&
                         data.map((item: { id: number, title: string, price: number, description: string, category: string, image: string, rating: { rate: number, count: number } }, i: number) => (
                             <div className="shadow-lg rounded-lg" key={i} onClick={() => productDetail(item.id)}>
-                                <a href="#">
-                                    <img src={item.image} className="w-full h-80 object-contain rounded-tl-lg rounded-tr-lg" />
-                                </a>
+                                {/* <a href="#"> */}
+                                <img src={item.image} className="w-full h-80 object-contain rounded-tl-lg rounded-tr-lg" />
+                                {/* </a> */}
                                 <div className="p-5">
                                     <h3><a href="#">{item.title}</a></h3>
                                     <div className="flex flex-row my-3">

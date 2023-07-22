@@ -1,0 +1,21 @@
+import StarIcon from "./starIcon";
+
+interface StarRatingProps {
+  rating: number;
+}
+
+const StarRating: React.FC<StarRatingProps> = ({ rating }) => {
+  const roundedRating = Math.round(rating * 2) / 2; // Round to nearest half-star
+
+  return (
+    <div className="flex items-center">
+      {[...Array(5)].map((_, index) => {
+        const filled = index < roundedRating;
+        return <StarIcon key={index} filled={filled} />;
+      })}
+      <p className="ml-2 text-sm font-medium text-gray-500">{roundedRating.toFixed(1)} out of 5</p>
+    </div>
+  );
+};
+
+export default StarRating;

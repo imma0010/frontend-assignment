@@ -16,7 +16,7 @@ async function getData() {
 }
 
 export default function Search() {
-    const [products, setProducts] = useState<Product>([]);
+    const [products, setProducts] = useState<Product | null>(null);
     const [searchQuery, setSearchQuery] = useState("");
     useEffect(() => {
         const getProduct = async () => {
